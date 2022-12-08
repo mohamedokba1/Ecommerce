@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactUs</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="" srcset="">
+        </div>
+        <div class="links">
+            <ul class="list">
+                
+                    <li><a style="color: #08d;" href="index.html" target="__self"><i class="fa-solid fa-house"></i> Home</a></li>
+                    
+                    <li><a style="color: #08d;" href="about.html" target="_self"><i class="fa-solid fa-address-card"></i> About</a></li>
+                    <li><a  style="color: #08d;"href="contactUs.html" target="_self"><i class="fa-solid fa-message"></i> Contact Us</a></li>
+                    <li><div class="cart"><span id="cart-counter">Cart</span><i class="fa-solid fa-cart-shopping"></i> </div></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="title">Contact With Us Today!</div>
+        <div class="input-container ic1">
+          <input id="fullName" class="input" type="text" placeholder=" " />
+          <div class="cut"></div>
+          <label for="firstname" class="placeholder">Full Name</label>
+          <small id="nameError"></small>
+        </div>
+        <div class="input-container ic2">
+          <input id="email" class="input" type="text" placeholder=" " />
+          <div class="cut cut-short"></div>
+          <label for="email" class="placeholder">Email</label>
+          <small id="mailError"></small>
+          
+        </div>
+        <div class="input-container ic2">
+            <input id="phone" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder" >Phone</label>
+            <small id="phoneError"></small>
+          </div>
+
+          <div class="input-container ic2">
+            <input id="phone" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder" >Feedback</label>
+            <small id="phoneError"></small>
+          </div>
+        <button id="submit" type="text" class="submit" onclick="submitForm()">submit</button>
+      </div>
+      <div class="success">
+            <p id="success-message"></p>
+      </div>
+    <div class="footer">
+        <div class="contact-us">
+            <div class="social-links">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-solid fa-envelope fa-2xl"></i>
+   
+            </div>
+            <div class="about">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda, beatae deleniti atque et po eaquelipsa veritatis!  deleniti atque et po eaquelipsa ver</p>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda, beatae deleniti atque et po eaquelipsa veritatis!  deleniti atque et po eaquelipsa ver</p>
+            </div>
+        </div>
+
+        <div class="rights">
+            <div class="text">
+                <p>&copy;2022 All Rights Reserved. Design by HTML Design</p>
+            </div>
+            <div class="top">
+                <i  id="scroll-top" class="fa-solid fa-arrow-up fa-2xl"></i>
+            </div>
+        </div>
+    </div>
+    <script src="./js/demo.js"></script>
+</body>
+</html>
